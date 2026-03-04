@@ -1,12 +1,10 @@
-import '@livekit/components-styles';
 import './globals.css';
+import Providers from './providers';
 
 export const metadata = {
   title: "Locked-In",
   description: "Bid for your hour. Own the frequency.",
 };
-
-import Providers from "./providers";
 
 export default function RootLayout({ children }) {
   return (
